@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 
 
-mongoose.connect(process.nv.MANGO);
+mongoose.connect(process.env.MANGO);
 
 const db = mongoose.connection;
 
